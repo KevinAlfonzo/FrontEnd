@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.horizontal-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.horizontal-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-group {
+  margin-right: 16px;
+}
+
+.header-cell {
+  background-color: #007bff;
+  color: white;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  margin-top: 16px;
+  text-align: center;
+}
